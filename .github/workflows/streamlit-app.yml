@@ -28,4 +28,4 @@ jobs:
         run: |
           streamlit run customer_feedback_analysis.py --server.headless true &
           sleep 15
-          pkill streamlit || echo 'Streamlit failed to start'
+          pkill streamlit
